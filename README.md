@@ -4,6 +4,7 @@
 1. Find suitable Myers-Briggs personality test to link to
 2. Add link to take personality test to views
 3. Store personality test results in database
+***
 We figured that this could be using a browser within the app and the personality test one of the group members was talking about (I do not have the link) had the results in the URL and we would be able to take the results from the URL.
 The reason for choosing five days is because it could take longer than expected, however it should not take too long. It is a fairly easy user story.
 
@@ -14,6 +15,7 @@ The reason for choosing five days is because it could take longer than expected,
 2. Create schema for database that stores all successful matches
 3. Create SQL script for adding all past matches into database
 4. Link each match to an on-going or possible conversation
+***
 The story is intended to make it so that users will be able to see their previous matches. The most complicated task on here that will take the longest is creating the user interface. There will be lots of design and user experience decisions involved in this. There will be a fair amount of business logic involved too that may take a couple days. Even though the team (two of us) decided to choose 8 days for this, in retrospective I would assign it more like 15 days.
 
 # Edit Profile
