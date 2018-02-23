@@ -1,3 +1,6 @@
+### Nicholas Gallimore (nfg3@zips.uakron.edu)
+# Myers-Briggs Personality Test Dating App
+### Team Jar Jar Binks<br /><br />
 #  Take Personality Test
 ### User takes personality test (redirect to site).
 #### Estimate: 5
