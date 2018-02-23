@@ -1,5 +1,5 @@
-### Nicholas Gallimore (nfg3@zips.uakron.edu)
 # Myers-Briggs Personality Test Dating App
+### Nicholas Gallimore (nfg3@zips.uakron.edu)
 ### Team Jar Jar Binks
 #### This is a report on the development process of the user stories for a Myers-Briggs Personality test dating app that uses your personality type to find your "perfect" match. This application will have the user take the Myers-Briggs Personality Test to find what their unique personality will be when they sign up. This will then be used to find people that are considered a match based on the user's personality. 
 
