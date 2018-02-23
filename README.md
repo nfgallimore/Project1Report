@@ -13,13 +13,17 @@
 4. Link each match to an on-going or possible conversation
 
 # Edit Profile
-### Change what other users see on their profile; such as a bio and details
+### Change what other users see on their profile; such as a bio
+###  and details
 #### Estimate: 5
-1. Create user interface with editable text boxes that correspond to the data on the user's profile
-2. Create SQL database holding the data of the user's profile. Also include scripts to change/get database info.
+1. Create user interface with editable text boxes that correspond
+ to the data on the user's profile
+2. Create SQL database holding the data of the user's profile.
+ Also include scripts to change/get database info.
 
 # Set Preferred Distance of Matches
-### The user will be able to choose a preferred location (or distance away) for their matches.
+### The user will be able to choose a preferred location (or
+###  distance away) for their matches.
 #### Estimate: 3
 1. Add preferred distance column to user settings table
 2. Add preferred distance to user settings page (view)
@@ -44,24 +48,35 @@
 2. Create view to display test results
 
 # Set User Age Preference
-### User decides the parameter for what age range they want their matches
-1. Create user interface / integer slider to create an age range preference
+### User decides the parameter for what age range they want
+###  their matches
+1. Create user interface / integer slider to create an age range
+ preference
 
 # Accept / Decline Matches
-### The user will be able to accept or decline matches in a list, removing them from a potential match to be accepted or declineed
+### The user will be able to accept or decline matches in a list,
+###  removing them from a potential match to be accepted or 
+###  declined
 1. Create UI for matching with accept / decline (Picture)
-2. Create schema & scripts for DB storing who the user accepts / declines
+2. Create schema & scripts for DB storing who the user accepts
+ / declines
 3. Notify user if they have a successful match
 4. User personality data to predict the best match
 
 # Create Type Preferences
-### The user will be able to alter what type of personality they prefer to match with. The preferences will default to what researchers believe is the 'perfect' match for your type.
+### The user will be able to alter what type of personality
+###  they prefer to match with. The preferences will default
+###  to what researchers believe is the 'perfect' match for 
+###  your type.
 
 # Set User Gender Preference
-### A user will set their gender preference for matches. Will be opposite sex by default.
+### A user will set their gender preference for matches. Will be
+###  opposite sex by default.
 
 # See Photos After Match
-### The user will be able to view photos of their match only after both people have accepted each other as a match
+### The user will be able to view photos of their match only
+###  after both people have accepted each other as a match
 
 # Change Application Notification Settings
-### When another match sends a message or other reason for a notification be able to turn off/on
+### When another match sends a message or other reason for a
+###  notification be able to turn off/on
