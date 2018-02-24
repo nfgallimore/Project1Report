@@ -75,8 +75,7 @@ This is one of the user stories that contains the tasks that I wrote. In hindsig
 This user story is linked to the Take Personality Test user story, and maybe it would make sense to have the same developer do these two stories. This story is also a very simple one. The task for the first one kind of overlaps with the first story and it should maybe be like "create the business logic to retrieve the stored results" which probably will require creating an API which will accept a GET request. I assigned it an estimate value of 12, as I find that POST requests are a little harder to do than GET requests, and by going off the similar story having 10, a value of 12 seems appropriate. The priority is 15 because it is not necessary for the application to function correctly it is just of huge convenience to the user to be able to see their test results.
 
 # Set User Age Preference
-### User decides the parameter for what age range they want
-###  their matches
+### User decides the parameter for what age range they want <br />their matches
 #### Priority: 15
 #### Estimation: 10
 1. Create user interface / integer slider to create an age range<br /> preference
@@ -97,12 +96,27 @@ This user story is part of the core functionality of the application. In fact th
 
 # Create Type Preferences
 ### The user will be able to alter what type of personality<br /> they prefer to match with. The preferences will default<br /> to what researchers believe is the 'perfect' match for <br /> your type.
+#### Priority: 20
+#### Estimation: 8
+1. Do UI changes to settings page
+2. Perform SQL changes
+3. Create POST and GET methods on controller for API
+4. Tie data into matching algorithm (e.g., with if statements)
+***
+This is a cool feature that allows the user to take control of their matching algorithm if they want to do it purely on what personality type the user thinks they like. This is closely related to the Accept / Decline matches story and maybe should be done by the same developer. It will have to be tied in with the matching algorithm logic when retrieving a list of potential matches for the user to swipe through. I gave this a priority of 20 because it is not pertinent to the functionality of the app. It a value of 8 for the estimation because it should not take too long, the longest part probably will be doing both of the back end API changes. The UI change is relatively minor. Tying the data into the matching algorithm should not be too hard either. If it is simply a filter to only select users with the personality type that the user chose, then it is very simple.
 
 # Set User Gender Preference
 ### A user will set their gender preference for matches. Will be<br /> opposite sex by default.
+#### Priority: 10
+#### Estimation: 8
+1. 
 
 # See Photos After Match
 ### The user will be able to view photos of their match only<br /> after both people have accepted each other as a match
+#### Priority: 10
+#### Estimation: 15
+***
+I absolutely did not see this user story before and I have to say that I am not sold on the idea of not showing the pictures of people before they are matched. We should show them the pictures before the match. But if we were required to implement this story then it would probably not be very fun. I am working on creating a media library for the press to download images from, and have say that a senior developer spent a year on the project and I just had to spend 12 days doing styling changes. While this is not anywhere near the scope of that, I feel that dealing with photos might prove to be a challenge. Where do you store them? Do we have to set up a CDN? If so then this story is completely longer than 15 days. If it is just stored in a file system on one server then sure maybe it can take 15 days. I gave this story a priority of 10 because far less people will still want to use the application if they cannot see pictures of the people they are potentially going on a date with, unless you market it as some form of a blind-date app, but that's just cheap. 
 
 # Change Application Notification Settings
 ### When another match sends a message or other reason for a<br /> notification be able to turn off/on
