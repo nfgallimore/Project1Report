@@ -131,9 +131,9 @@ I absolutely did not see this user story before and I have to say that I am not 
 1. Create toggle on the settings view
 2. Create SQL table and add foreign keys
 3. Create POST and GET requests on the controller for the API
-***
 #### Priority: 20
 #### Estimation: 5
+***
 This is relatively simple feature and I think it may even be required to be integrated with iOS. If it is required then of course the priority would shift to 10. This should not take very long. The SQL to create is very simple. We came up with this story because we decided to make individual user stories for each settings, something which I think is valuable because it allows to choose which configuration settings we want to have first and we can go back and do the other ones later that have a lower-priority. This is helpful if there is a deadline that is approaching and we need to cut back on some user stories. This is definitely one of the ones that may be possible to cut out if it is not necessary to have. This probably should be in a second iteration of the application. The user does not need to control when they are notified to use the app, so that is why it has a priority of 20. The five days I think is fair based on the given tasks.
 
 # Overall
