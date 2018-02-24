@@ -90,7 +90,7 @@ This user story is also under the assumption that there is a configuration page.
 1. Create UI for matching with accept / decline (Picture)
 2. Create schema & scripts for DB storing who the user accepts<br /> / declines
 3. Notify user if they have a successful match
-4. User personality data to predict the best match
+4. Use personality data to predict the best match
 ***
 This user story is part of the core functionality of the application. In fact this is where we as a team decided to put the matching algorithm, and it is very important indeed. After reviewing this when we went to do the estimation I wanted to put the algorithm task into a separate story but that did not happen due to time constraints. I feel that this story has enough on its own in UI and business logic to take 15 days even without the matching algorithm. There will have to be AI built into the algorithm if it is to be anything comparable to the other services that are currently out there, and I think that is out of the scope of any of us and would require some pretty heavy research and as I am told, lots of math. I gave this user story a priority of 10 because it is pertinent to the functionality of the application and the application would not be usable without it. I also would maybe put the notify user if they have a successful match into a separate user story too. I gave this story an estimation of 20 because we should go back and try to reduce the number of tasks tagged onto this story, as it is already very large. I am not able to speak on the process for creating these tasks as I did not create them.
 
