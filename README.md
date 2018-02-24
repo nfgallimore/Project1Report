@@ -47,7 +47,7 @@ This user story also has a major underlying assumption that there is a settings 
 #### Priority: 10
 #### Estimate: 10
 1. Create user interface for incoming messages
-2. Create schema for storing messsages in a database
+2. Create schema for storing messages in a database
 3. Create SQL scripts for adding, finding and deleting
 4. Implement back end API for sending messages
 5. Create a message class to store message information
