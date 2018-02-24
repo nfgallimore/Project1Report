@@ -52,6 +52,7 @@ This user story also has a major underlying assumption that there is a settings 
 4. Implement back end API for sending messages
 5. Create a message class to store message information
 6. Give the user a notification if they have a new message
+***
 This user story and the next user story were initially how they are now. One day I was absent and the team decided to merge them together into the same user story, which is understandable. I was under the assumption that only one person can work on a user story at a time, because that is how it is normally done at my work. However, I have now realized that any number of people can work on a user story and different developers can be assigned the tasks of one user story. In retrospective I think that having this as one user story may be better, and I think it caused some confusion in the group when I split it back into two separate stories as it was originally.
 I assigned this story a priority of 10 because it is pertinent to the functionality of the app and the app cannot be created without it. I estimate that it will take about 10 days to finish this user story. Alot of the time will be spent on the user interface, and some time will also be spent creating the back end. The SQL should only take about 1/2 a day.
 
@@ -61,6 +62,7 @@ I assigned this story a priority of 10 because it is pertinent to the functional
 #### Estimate: 10
 1. Create REST service to send messages and the required SQL
 2. Create view to send messages
+***
 This is one of the user stories that contains the tasks that I wrote. In hindsight maybe I should have broke the first task into two separate tasks but cards were relatively short. I think it is rather shorter and simpler than the Recieve messages one which I did not do but the student said is from the book. I was suprised at how well that one was done. This one however embodies the two most main important tasks of the user story. This user story should take the same amount of time as the Recieve messages story and it has the same priority for the same reasons. It would also make sense to have the same developer do these two stories because they will become familiar with the similar back-end services as they will probably use the same controller.
 
 # View Test Results
@@ -69,12 +71,18 @@ This is one of the user stories that contains the tasks that I wrote. In hindsig
 #### Estimate: 12
 1. Create SQL table to store results
 2. Create view to display test results
+***
 This user story is linked to the Take Personality Test user story, and maybe it would make sense to have the same developer do these two stories. This story is also a very simple one. The task for the first one kind of overlaps with the first story and it should maybe be like "create the business logic to retrieve the stored results" which probably will require creating an API which will accept a GET request. I assigned it an estimate value of 12, as I find that POST requests are a little harder to do than GET requests, and by going off the similar story having 10, a value of 12 seems appropriate. The priority is 15 because it is not necessary for the application to function correctly it is just of huge convenience to the user to be able to see their test results.
 
 # Set User Age Preference
 ### User decides the parameter for what age range they want
 ###  their matches
+#### Priority: 15
+#### Estimation: 10
 1. Create user interface / integer slider to create an age range<br /> preference
+2. Create API to store the information
+***
+This user story is also under the assumption that there is a configuration page. So if one of other configuration stories were done first than this would take shorter. Given that I gave the priority for this a priority of 15 either one could be done first (referring to the edit profile user story). This estimation however is assigned under the assumption that this story is the story to first create the interface for the settings page. I assigned the estimation a value of 10 given the circumstances of creating the routes and the initial part of the view. The priority was given a value of fifteen because it is kind of important for the user to have relevant matches or they will not like it, but it is still possible to use the application without this feature. It would be fundamental and essential to a full fledged version of this application and that is why I would recommend to ship this feature out in the first iteration.
 
 # Accept / Decline Matches
 ### The user will be able to accept or decline matches in a list,<br /> removing them from a potential match to be accepted or <br /> declined
