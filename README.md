@@ -109,14 +109,32 @@ This is a cool feature that allows the user to take control of their matching al
 ### A user will set their gender preference for matches. Will be<br /> opposite sex by default.
 #### Priority: 10
 #### Estimation: 8
-1. 
+1. Do UI changes
+2. Perform SQL changes
+3. Create POST and GET methods on controller for API
+***
+This user story is pertinent to the app. It is becoming more and more common for people to have different sexual orientations, as well as transgender etc. Technically we should have a box for "other" if we want to be culturally sound. This user story should be pretty basic though. It shouldn't require much time, some basic UI changes that will be added to the settings view that was created in the set user age preference story. The SQL is also very basic and should not take very long. Overall I would say that this should take no longer than 8 days if you are slow at doing the backend side of things. This obviously has a priority of 10 because we do not know what gender the user prefers and the app would not be usable without it.
 
 # See Photos After Match
 ### The user will be able to view photos of their match only<br /> after both people have accepted each other as a match
 #### Priority: 10
 #### Estimation: 15
+1. Add the UI changes to view the picture on the profile page of the accepted matched user
+2. Create a file system to store the photos
+3. Create a POST and GET request to retrieve the photos\
+4. Modify the configuration settings page to upload a photo for the user
 ***
-I absolutely did not see this user story before and I have to say that I am not sold on the idea of not showing the pictures of people before they are matched. We should show them the pictures before the match. But if we were required to implement this story then it would probably not be very fun. I am working on creating a media library for the press to download images from, and have say that a senior developer spent a year on the project and I just had to spend 12 days doing styling changes. While this is not anywhere near the scope of that, I feel that dealing with photos might prove to be a challenge. Where do you store them? Do we have to set up a CDN? If so then this story is completely longer than 15 days. If it is just stored in a file system on one server then sure maybe it can take 15 days. I gave this story a priority of 10 because far less people will still want to use the application if they cannot see pictures of the people they are potentially going on a date with, unless you market it as some form of a blind-date app, but that's just cheap. 
+I absolutely did not see this user story before and I have to say that I am not sold on the idea of not showing the pictures of people before they are matched. We should show them the pictures before the match. But if we were required to implement this story then it would probably not be very fun. I am working on creating a media library for the press to download images from, and have say that a senior developer spent a year on the project and I just had to spend 12 days doing styling changes. While this is not anywhere near the scope of that, I feel that dealing with photos might prove to be a challenge. Where do you store them? Do we have to set up a CDN? If so then this story is completely longer than 15 days. If it is just stored in a file system on one server then sure maybe it can take 15 days. I gave this story a priority of 10 because far less people will still want to use the application if they cannot see pictures of the people they are potentially going on a date with, unless you market it as some form of a blind-date app, but that's just cheap. We must also assume that there is an upload photo feature too on the edit profile page.
 
 # Change Application Notification Settings
 ### When another match sends a message or other reason for a<br /> notification be able to turn off/on
+1. Create toggle on the settings view
+2. Create SQL table and add foreign keys
+3. Create POST and GET requests on the controller for the API
+***
+#### Priority: 20
+#### Estimation: 5
+This is relatively simple feature and I think it may even be required to be integrated with iOS. If it is required then of course the priority would shift to 10. This should not take very long. The SQL to create is very simple. We came up with this story because we decided to make individual user stories for each settings, something which I think is valuable because it allows to choose which configuration settings we want to have first and we can go back and do the other ones later that have a lower-priority. This is helpful if there is a deadline that is approaching and we need to cut back on some user stories. This is definitely one of the ones that may be possible to cut out if it is not necessary to have. This probably should be in a second iteration of the application. The user does not need to control when they are notified to use the app, so that is why it has a priority of 20. The five days I think is fair based on the given tasks.
+
+# Overall
+Overall, I think the project was a success. I have learned how to manage user stories better and have improved on the process used to create them. I think the process of creating the user story first, going back and revising, then adding tasks, then doing an estimation is a good workflow and is something that I will start to do. The only thing that I wish we could do is maybe add tasks for testing. As that is a very important element of the software development process and it should probably be recorded who did the testing. Test cases should be assigned after writing the tasks as well. I know I was not able to comment on the individual process specifically of each user story but I did my best to encapsulate my thoughts when they were being created and how I would go about implementing them. Thinking about the actual process of creating user stories and trying to improve upon it is something that is hard to do, I have learned.
