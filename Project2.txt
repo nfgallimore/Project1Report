@@ -1,0 +1,276 @@
+Nicholas Gallimore (nfg3@zips.uakron.edu)
+
+Plan A
+========================================
+
+Iteration 1
+Total days of work: 42
+----------------------------------------
+
+Accept / Decline Matches
+Estimate: 13
+Priority: 10
+
+View Matched Users
+Estimate: 8
+Priority: 10
+
+Recieve Messages
+Estimate: 8
+Priority: 10
+
+Send Messages
+Estimate: 10
+Priority: 10
+
+Set Preferred Distance of Matches
+Estimate: 3
+Priority: 20
+
+Iteration 2
+Total days of work: 42
+----------------------------------------
+
+Take Personality Test
+Estimate: 5
+Priority: 20
+
+See Photos After Match
+Estimate: 13.5
+Priority: 20
+
+Edit Profile
+Estimate: 5
+Priority: 30
+
+Set User Gender Preference
+Estimate: 2
+Priority: 30
+
+Set User Age Preference
+Estimate: 2
+Priority: 40
+
+View Test Results
+Estimate: 4
+Priority: 40
+
+Change Application Notification Settings
+Estimate: 10
+Priority: 50
+
+Iteration 3
+Total days of work: 3
+----------------------------------------
+
+Create Type Preferences
+Estimate: 3
+Priority: 50
+
+Plan B
+========================================
+
+Iteration 1
+Total days of work: 42
+
+Accept / Decline Matches
+Estimate: 13
+Priority: 10
+
+View Matched Users
+Estimate: 8
+Priority: 10
+
+Recieve Messages
+Estimate: 8
+Priority: 10
+
+Send Messages
+Estimate: 10
+Priority: 10
+
+Set Preferred Distance of Matches
+Estimate: 3
+Priority: 20
+
+Iteration 2
+Total days of work: 39
+----------------------------------------
+
+Integrate with Facebook
+Estimate: 15
+Priority: 10
+
+Investor advertisment banner
+Estimate: 10
+Priority: 10
+
+See Photos After Match
+Estimate: 13.5
+Priority: 20
+
+Iteration 3
+Total days of work: 31
+----------------------------------------
+
+Take Personality Test
+Estimate: 5
+Priority: 20
+
+Edit Profile
+Estimate: 5
+Priority: 30
+
+Set User Gender Preference
+Estimate: 2
+Priority: 30
+
+Set User Age Preference
+Estimate: 2
+Priority: 40
+
+View Test Results
+Estimate: 4
+Priority: 40
+
+Change Application Notification Settings
+Estimate: 10
+Priority: 50
+
+Create Type Preferences
+Estimate: 3
+Priority: 50
+
+Plan C
+========================================
+
+Iteration 1
+Total days of work: 42
+----------------------------------------
+
+Accept / Decline Matches
+Estimate: 13
+Priority: 10
+
+View Matched Users
+Estimate: 8
+Priority: 10
+
+Recieve Messages
+Estimate: 8
+Priority: 10
+
+Send Messages
+Estimate: 10
+Priority: 10
+
+Set Preferred Distance of Matches
+Estimate: 3
+Priority: 20
+
+Iteration 2
+Total days of work: 39*
+----------------------------------------
+
+Take Personality Test
+Estimate: 5
+Priority: 20
+
+See Photos After Match
+Estimate: 13.5*
+Priority: 20
+
+Edit Profile
+Estimate: 5
+Priority: 30
+
+Set User Gender Preference
+Estimate: 2
+Priority: 30
+
+Iteration 3
+Total days of work: 19
+----------------------------------------
+
+Set User Age Preference
+Estimate: 2
+Priority: 40
+
+View Test Results
+Estimate: 4
+Priority: 40
+
+Change Application Notification Settings
+Estimate: 10
+Priority: 50
+
+Create Type Preferences
+Estimate: 3
+Priority: 50
+
+Plan D
+========================================
+
+Iteration 1
+Total days of work: 42
+----------------------------------------
+
+Accept / Decline Matches
+Estimate: 13
+Priority: 10
+
+View Matched Users
+Estimate: 8
+Priority: 10
+
+Recieve Messages
+Estimate: 8
+Priority: 10
+
+Send Messages
+Estimate: 10
+Priority: 10
+
+Set Preferred Distance of Matches
+Estimate: 3
+Priority: 20
+
+Iteration 2
+Total days of work: 42
+----------------------------------------
+
+Take Personality Test
+Estimate: 5
+Priority: 20
+
+See Photos After Match
+Estimate: 13.5
+Priority: 20
+
+Edit Profile
+Estimate: 5
+Priority: 30
+
+Set User Gender Preference
+Estimate: 2
+Priority: 30
+
+Set User Age Preference
+Estimate: 2
+Priority: 40
+
+View Test Results
+Estimate: 4
+Priority: 40
+
+Change Application Notification Settings
+Estimate: 10
+Priority: 50
+
+Iteration 3
+Total days of work: 3
+----------------------------------------
+
+Create Type Preferences
+Estimate: 3
+Priority: 50
