@@ -268,9 +268,32 @@ Estimate: 10
 Priority: 50
 
 Iteration 3
-Total days of work: 3
+Total days of work: 32
 ----------------------------------------
+Find User Stories Missing Unit Tests
+Estimate: 2
+Priority: 10
 
-Create Type Preferences
+Set Preferred Distance of Matches Defect
 Estimate: 3
+Priority: 20
+
+Create Type Preferences Defect
+Estimate: 3
+Priority: 50
+
+Edit Profile Defect
+Estimate: 3
+Priority: 30
+
+Set User Gender Preference Defect
+Estimate: 3
+Priority: 30
+
+Set User Age Preference Defect
+Estimate: 3
+Priority: 40
+
+Change Application Notification Settings Defect
+Estimate: 15
 Priority: 50
